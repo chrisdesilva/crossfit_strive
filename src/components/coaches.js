@@ -77,8 +77,7 @@ const Coaches = props => {
         <div className="coaches__bio">
           <h3>Coach Cody</h3>
           <p>
-            Certifications: USAW Advanced Sport Performance Coach, CF L1, NASM
-            CPT (expired)
+            Certifications: USAW Advanced Sport Performance Coach, CF L1, CSCS
           </p>
           <p>
             Cody is the founder of Fortitude Barbell Club and Operations Manager

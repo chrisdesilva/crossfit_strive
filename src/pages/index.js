@@ -332,6 +332,18 @@ const IndexPage = () => {
             alt="CrossFit Journal: The Performance-Based Lifestyle Resource"
           />
         </a>
+        <a
+          href="https://www.airrosti.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="Airrosti"
+        >
+          <img
+            src="https://www.airrosti.com/wp-content/uploads/2018/11/airrosti-logo-2.png"
+            alt="Airrosti"
+            width="125px"
+          />
+        </a>
       </footer>
     </div>
   )

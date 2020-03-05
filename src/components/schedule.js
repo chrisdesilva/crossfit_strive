@@ -27,16 +27,30 @@ const Schedule = props => {
         <table className="schedule--crossfit__table">
           <tbody>
             <tr>
-              <th>Monday-Friday</th>
+              <th>Monday | Friday</th>
             </tr>
             <tr>
-              <td>5:30am | 6:45am | 12:00pm | 4:30pm | 5:45pm | 7:00pm</td>
+              <td>5:30am | 6:45am | 12:00pm | 4:30pm | 5:45pm </td>
+            </tr>
+            <tr>
+              <th>Tuesday | Thursday</th>
+            </tr>
+            <tr>
+              <td>
+                5:30am | 6:45am | 9:30am | 12:00pm | 4:30pm | 5:45pm | 7:00pm
+              </td>
+            </tr>
+            <tr>
+              <th>Wednesday</th>
+            </tr>
+            <tr>
+              <td>5:30am | 12:00pm | 4:30pm | 5:45pm </td>
             </tr>
             <tr>
               <th>Saturday</th>
             </tr>
             <tr>
-              <td>8:00am | 9:15am | 10:30am</td>
+              <td>8:00am | 9:15am</td>
             </tr>
             <tr>
               <th>Sunday</th>
@@ -52,28 +66,28 @@ const Schedule = props => {
         className={isPumpBurnOpen ? "strive-red" : undefined}
       >
         <FaFire />
-        <p>Pump 30/Burn 30</p>
+        <p>Pump & Burn</p>
       </span>
       <Collapse isOpened={isPumpBurnOpen}>
         <table className="schedule--crossfit__table">
           <tbody>
             <tr>
-              <th>Monday-Wednesday-Friday</th>
+              <th>Monday | Wednesday</th>
             </tr>
             <tr>
-              <td>9:30am Pump / 10:00am Burn</td>
+              <td>9:30am | 5:45pm</td>
             </tr>
             <tr>
-              <td>5:45pm Pump / 6:15pm Burn</td>
+              <th>Tuesday | Thursday</th>
             </tr>
             <tr>
-              <th>Tuesday-Thursday</th>
+              <td>5:30am</td>
             </tr>
             <tr>
-              <td>5:30am Pump / 6:00am Burn</td>
+              <th>Friday</th>
             </tr>
             <tr>
-              <td>9:30am Pump / 10:00am Burn</td>
+              <td>9:30am</td>
             </tr>
           </tbody>
         </table>

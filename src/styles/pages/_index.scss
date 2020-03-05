@@ -520,9 +520,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: darken($color: $black, $amount: 5);
+  background-color: lighten($color: $black, $amount: 25);
   color: white;
   padding: 3rem 1rem;
+
+  img {
+    margin-top: 1rem;
+  }
 
   &__links {
     margin-bottom: 1rem;
