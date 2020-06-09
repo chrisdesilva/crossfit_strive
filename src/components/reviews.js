@@ -3,17 +3,51 @@ import Img from "gatsby-image"
 import { FaStar } from "react-icons/fa"
 
 const Reviews = props => {
-  const [reviews, setReviews] = useState([])
+  // const [reviews, setReviews] = useState([])
 
-  useEffect(() => {
-    fetch(
-      `https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/details/json?key=${process.env.GATSBY_GOOGLE_PLACES_API}&place_id=ChIJt72IgyGaRIYRXtrxZoDnDXc`
-    )
-      .then(res => res.json())
-      .then(result => {
-        setReviews(result.result.reviews)
-      })
-  }, [])
+  // useEffect(() => {
+  //   fetch(
+  //     `https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/details/json?key=${process.env.GATSBY_GOOGLE_PLACES_API}&place_id=ChIJt72IgyGaRIYRXtrxZoDnDXc`
+  //   )
+  //     .then(res => res.json())
+  //     .then(result => {
+  //       console.log(result)
+  //       // setReviews(result.result.reviews)
+  //     })
+  // }, [])
+
+  const reviews = [
+    {
+      author_name: "joshua bingaman",
+      rating: 5,
+      text:
+        "Best coaches, members, and workouts I’ve ever experienced. STRIVE seriously changed my fitness forever and I can’t imagine my life without it. Long live STRIVE!",
+    },
+    {
+      author_name: "Bridget Borja",
+      rating: 5,
+      text:
+        "Great place, not only do you get into the best shape of your life, but you become part of a community, A FAMILY. I have made the most sincere connections in this gym. The goals set/accomplished here are far more than what you could ever find in any work-our session! Come see what MY family is about!",
+    },
+    {
+      author_name: "Sara Waldmann",
+      rating: 5,
+      text:
+        "Let me preface this by saying that I would have never thought that I would, at any point, be a member of a Crossfit gym. I've never felt more welcome and supported and after 9 months of being a member, I can't imagine being anywhere else.",
+    },
+    {
+      author_name: "Jason Fisher",
+      rating: 5,
+      text:
+        "I spent years at another local gym. Made progress but wasn't never obtaining my fitness goals. CrossFit has literally changed my life for the better. Within months of doing CrossFit I am closer to my fitness goals than I ever have been. What I also love about it above all is the family type atmosphere at CrossFit Strive. Everyone lifts one another up and is so encouraging. The coaching is top notch. No matter where you are in your current fitness level you can participate in the workouts. If you want a better version of you and willing to put in the work start doing CrossFit now!!!",
+    },
+    {
+      author_name: "Aaron Goodwin",
+      rating: 5,
+      text:
+        "My brother lives in Bastrop so I drop in here when I'm in town visiting. Always a great workout. Athan and the gang are super helpful and welcoming. Great workouts and great people.",
+    },
+  ]
 
   return (
     <div className="reviews">
@@ -43,20 +77,24 @@ const Reviews = props => {
         data-sal-easing="ease-in-out"
         className="reviews__cards"
       >
-        {reviews.map((review, i) => {
-          let fullName = review.author_name.split(" ")
-          return (
-            <div key={review.author_name} className={`reviews__card card${i}`}>
-              {reviews.map(rating => (
-                <span>
-                  <FaStar />
-                </span>
-              ))}
-              <p>{review.text}</p>
-              <h3>-{fullName[0]}</h3>
-            </div>
-          )
-        })}
+        {reviews &&
+          reviews.map((review, i) => {
+            let fullName = review.author_name.split(" ")
+            return (
+              <div
+                key={review.author_name}
+                className={`reviews__card card${i}`}
+              >
+                {reviews.map(rating => (
+                  <span>
+                    <FaStar />
+                  </span>
+                ))}
+                <p>{review.text}</p>
+                <h3>-{fullName[0]}</h3>
+              </div>
+            )
+          })}
       </div>
       {/*<div data-sal="fade" data-sal-duration="1000" data-sal-easing="ease-in-out" className="reviews__cards">
       <iframe className="reviews__iframe" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ffish1200%2Fposts%2F10217125698044336&width=500" width="500" height="256" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>  

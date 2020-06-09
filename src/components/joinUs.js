@@ -62,14 +62,13 @@ const JoinUs = props => {
 
   return (
     <div className="joinUs">
-      <h1>CrossFit Strive Bastrop</h1>
+      <h1>Strive</h1>
       <p>
-        Welcome to CrossFit Strive! Our mission is to empower people to be
-        happier, healthier, and more successful in life. We’re a family first,
-        CrossFit gym second. Whatever your health and fitness goals are, our
-        experienced coaches and supportive members will help you get there. We
-        promise to teach you, hold you accountable, and cheer you on every step
-        of the way.
+        Welcome to Strive! Our mission is to empower people to be happier,
+        healthier, and more successful in life. We’re a family first, a gym
+        second. Whatever your health and fitness goals are, our experienced
+        coaches and supportive members will help you get there. We promise to
+        teach you, hold you accountable, and cheer you on every step of the way.
       </p>
       {!props.form && (
         <React.Fragment>
@@ -97,13 +96,13 @@ const JoinUs = props => {
       <Collapse isOpened={props.form}>
         <iframe
           title="Learn more form"
-          src="https://trial-13A012D9.zenplanner.com/zenplanner/portal/prospect.cfm?programId=A4BC64AD-86D3-4DDB-9962-411EF4AE5815&frame=true"
+          src="http://trial-13A012D9.zenplanner.com/zenplanner/portal/prospect.cfm?programId=A4BC64AD-86D3-4DDB-9962-411EF4AE5815&frame=true"
           style={{ width: "100%", height: "500px" }}
           frameborder="0"
           id="idZenPlannerFrame"
         >
           <noframes>
-            <a href="https://trial-13A012D9.zenplanner.com/zenplanner/portal/prospect.cfm?programId=A4BC64AD-86D3-4DDB-9962-411EF4AE5815">
+            <a href="http://trial-13A012D9.zenplanner.com/zenplanner/portal/prospect.cfm?programId=A4BC64AD-86D3-4DDB-9962-411EF4AE5815">
               Online Prospect Form
             </a>
           </noframes>

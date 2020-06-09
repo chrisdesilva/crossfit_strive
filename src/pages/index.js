@@ -318,20 +318,7 @@ const IndexPage = () => {
             Membership Cancellation
           </Link>
         </div>
-        © {new Date().getFullYear()} CrossFit Strive Bastrop
-        <a
-          href="https://journal.crossfit.com/start.tpl?version=CFJ-white123x63"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="CrossFit Journal: The Performance-Based Lifestyle Resource"
-        >
-          <img
-            src="https://journal.crossfit.com/templates/images/white-125x63.png"
-            width="125px"
-            height="63px"
-            alt="CrossFit Journal: The Performance-Based Lifestyle Resource"
-          />
-        </a>
+        © {new Date().getFullYear()} Strive
         <a
           href="https://www.airrosti.com/"
           target="_blank"

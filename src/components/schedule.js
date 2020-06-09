@@ -21,7 +21,7 @@ const Schedule = props => {
         className={isCrossfitOpen ? "strive-red" : undefined}
       >
         <FaHeartbeat />
-        <p>CrossFit</p>
+        <p>Strive 60</p>
       </span>
       <Collapse isOpened={isCrossfitOpen}>
         <table className="schedule--crossfit__table">

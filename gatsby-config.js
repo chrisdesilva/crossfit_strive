@@ -3,10 +3,10 @@ require("dotenv").config({
 })
 module.exports = {
   siteMetadata: {
-    title: `Crossfit Strive Bastrop`,
-    description: `We're the first and only CrossFit provider in Bastrop. We help beginners and experienced athletes reach their fitness goals through CrossFit.`,
-    keywords: `crossfit, bastrop, gym, fitness, conditioning, strength, lifting, weightlifting, nutrition, health, self-improvement`,
-    author: `@chrisdesilva27`,
+    title: `Strive`,
+    description: `We help beginners and experienced athletes reach their fitness goals through functional fitness.`,
+    keywords: `bastrop, gym, fitness, conditioning, strength, lifting, weightlifting, nutrition, health, self-improvement`,
+    author: `@desilvadev`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -34,9 +34,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-scroll-reveal`,
       options: {
-        threshold: .25
-      }
-    }
+        threshold: 0.25,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

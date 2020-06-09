@@ -33,11 +33,10 @@ const Coaches = props => {
           </p>
           <p>
             Athan is a former U.S. Army Airborne Ranger. In addition to owning
-            and coaching at two CrossFit gyms, he currently serves as a Master
-            Fitness Trainer for the U.S. Army. But don’t be intimidated- Athan
-            has a big smile and a big heart. His mission in life is to help
-            others achieve optimal health, deep human connection, and
-            self-actualization.
+            and coaching at two gyms, he currently serves as a Master Fitness
+            Trainer for the U.S. Army. But don’t be intimidated- Athan has a big
+            smile and a big heart. His mission in life is to help others achieve
+            optimal health, deep human connection, and self-actualization.
           </p>
         </div>
       </div>
@@ -59,9 +58,9 @@ const Coaches = props => {
           </p>
           <p>
             Kady was voted the Best Fitness Instructor in Bastrop for 2019. She
-            has been coaching and competing in CrossFit for over seven years.
-            Kady is knowledgeable, encouraging, and loud (in a good way). She’s
-            a Fit Mom who believes that strength is beauty!
+            has been coaching and competing for over seven years. Kady is
+            knowledgeable, encouraging, and loud (in a good way). She’s a Fit
+            Mom who believes that strength is beauty!
           </p>
         </div>
       </div>
@@ -81,7 +80,7 @@ const Coaches = props => {
           </p>
           <p>
             Cody is the founder of Fortitude Barbell Club and Operations Manager
-            at CrossFit Strive. With over seven years of experience in CrossFit
+            at Strive. With over seven years of experience in fitness coaching
             and six years in competitive weightlifting, Cody is sometimes
             referred to as “the Yoda of the Barbell” due to his ability to break
             down and teach complex movements.
@@ -101,11 +100,11 @@ const Coaches = props => {
           <h3>Coach Lexi</h3>
           <p>Certifications: CF L1</p>
           <p>
-            Lexi is a former gymnast who fell in love with CrossFit in 2017.
-            After receiving her Level 1 certification, Lexi brought her passion
-            for community and newly-achieved coaching skills back to Strive. She
-            creates a training environment that is fun, focused, and challenging
-            for everyone.
+            Lexi is a former gymnast who fell in love with functional fitness in
+            2017. After receiving her Level 1 certification, Lexi brought her
+            passion for community and newly-achieved coaching skills back to
+            Strive. She creates a training environment that is fun, focused, and
+            challenging for everyone.
           </p>
         </div>
       </div>
@@ -150,7 +149,7 @@ const Coaches = props => {
             Rebekah was a crisis counselor for victims of domestic violence for
             over 15 years, which is where she learned to meet a person's
             emotional needs and that has now brought her to a place at Strive
-            where she can translate those tools into CrossFit and coaching.
+            where she can translate those tools into coaching.
           </p>
         </div>
       </div>
@@ -172,9 +171,9 @@ const Coaches = props => {
           </p>
           <p>
             Sarah fell in love with fitness in 2014 after taking a weightlifting
-            class in college. It eventually led her to Crossfit Strive, where
-            she found home. She is passionate about evidence-based fitness,
-            strength training, and having fun while training hard.
+            class in college. It eventually led her to Strive, where she found
+            home. She is passionate about evidence-based fitness, strength
+            training, and having fun while training hard.
           </p>
         </div>
       </div>
