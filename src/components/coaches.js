@@ -125,11 +125,10 @@ const Coaches = props => {
           </p>
           <p>
             Jessica is an enthusiastic coach who has a passion for health and
-            fitness. She was a competitive, multi-sport athlete growing up. She
-            found CrossFit in 2009 and knew it was a methodology she wanted to
-            be a part of. Since, she has been in many competitions, and attended
-            the CrossFit gymnastics and Mobility courses and has her CrossFit
-            Level 1.
+            fitness. She was a competitive, multi-sport athlete growing up and
+            she found CrossFit in 2009. Since then, Jessica has cultivated her
+            love of fitness by attending seminars, securing certifications, and
+            participating in local competitions.
           </p>
         </div>
       </div>
