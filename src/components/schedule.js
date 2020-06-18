@@ -6,6 +6,7 @@ const Schedule = props => {
   const [isCrossfitOpen, toggleCrossfit] = useState(false)
   const [isPumpBurnOpen, togglePumpBurn] = useState(false)
   const [isBarbellOpen, toggleBarbell] = useState(false)
+  const [isKidsOpen, toggleKids] = useState(false)
 
   return (
     <div
@@ -27,30 +28,19 @@ const Schedule = props => {
         <table className="schedule--crossfit__table">
           <tbody>
             <tr>
-              <th>Monday | Friday</th>
-            </tr>
-            <tr>
-              <td>5:30am | 6:45am | 12:00pm | 4:30pm | 5:45pm </td>
-            </tr>
-            <tr>
-              <th>Tuesday | Thursday</th>
+              <th>Monday-Friday</th>
             </tr>
             <tr>
               <td>
-                5:30am | 6:45am | 9:30am | 12:00pm | 4:30pm | 5:45pm | 7:00pm
+                5:00am | 6:15am | 7:30am (MWF) | 12:00pm | 4:30pm | 5:45pm |
+                7:00pm (MWF){" "}
               </td>
-            </tr>
-            <tr>
-              <th>Wednesday</th>
-            </tr>
-            <tr>
-              <td>5:30am | 12:00pm | 4:30pm | 5:45pm </td>
             </tr>
             <tr>
               <th>Saturday</th>
             </tr>
             <tr>
-              <td>8:00am | 9:15am</td>
+              <td>8:00am | 10:30am</td>
             </tr>
             <tr>
               <th>Sunday</th>
@@ -72,22 +62,16 @@ const Schedule = props => {
         <table className="schedule--crossfit__table">
           <tbody>
             <tr>
-              <th>Monday | Wednesday</th>
+              <th>Monday | Wednesday | Friday</th>
             </tr>
             <tr>
-              <td>9:30am | 5:45pm</td>
+              <td>9:30am</td>
             </tr>
             <tr>
               <th>Tuesday | Thursday</th>
             </tr>
             <tr>
-              <td>5:30am</td>
-            </tr>
-            <tr>
-              <th>Friday</th>
-            </tr>
-            <tr>
-              <td>9:30am</td>
+              <td>7:30am</td>
             </tr>
           </tbody>
         </table>
@@ -103,22 +87,35 @@ const Schedule = props => {
         <table className="schedule--crossfit__table">
           <tbody>
             <tr>
-              <th>Tuesday</th>
+              <th>Tuesday | Thursday</th>
             </tr>
             <tr>
-              <td>4:30pm | 5:45pm</td>
-            </tr>
-            <tr>
-              <th>Thursday</th>
-            </tr>
-            <tr>
-              <td>4:30pm | 5:45pm</td>
+              <td>7:00pm</td>
             </tr>
             <tr>
               <th>Saturday</th>
             </tr>
             <tr>
-              <td>8:00am</td>
+              <td>9:15am</td>
+            </tr>
+          </tbody>
+        </table>
+      </Collapse>
+      <span
+        onClick={() => toggleKids(!isKidsOpen)}
+        className={isKidsOpen ? "strive-red" : undefined}
+      >
+        <FaDumbbell />
+        <p>Kids</p>
+      </span>
+      <Collapse isOpened={isKidsOpen}>
+        <table className="schedule--crossfit__table">
+          <tbody>
+            <tr>
+              <th>Monday | Wednesday | Friday</th>
+            </tr>
+            <tr>
+              <td>11:00am</td>
             </tr>
           </tbody>
         </table>
