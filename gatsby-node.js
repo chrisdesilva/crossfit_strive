@@ -2,13 +2,19 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage, createRedirect } = actions
   createRedirect({
     fromPath: "https://crossfitstrive.net/*",
-    toPath: "https://www.crossfitstrivebastrop.com/:splat",
+    toPath: "https://www.strivebastrop.com/:splat",
     isPermanent: true,
     force: true,
   })
   createRedirect({
     fromPath: "https://www.crossfitstrive.net/*",
-    toPath: "https://www.crossfitstrivebastrop.com/:splat",
+    toPath: "https://www.strivebastrop.com/:splat",
+    isPermanent: true,
+    force: true,
+  })
+  createRedirect({
+    fromPath: "https://www.crossfitstrive.net/*",
+    toPath: "https://www.strivebastrop.com/:splat",
     isPermanent: true,
     force: true,
   })
@@ -33,6 +39,12 @@ exports.createPages = ({ graphql, actions }) => {
   createRedirect({
     fromPath: "https://www.crossfitstrive.net/nutritional-coaching",
     toPath: "/",
+    isPermanent: true,
+    force: true,
+  })
+  createRedirect({
+    fromPath: "https://www.crossfitstrivebastrop.com/*",
+    toPath: "https://www.strivebastrop.com/:splat",
     isPermanent: true,
     force: true,
   })
