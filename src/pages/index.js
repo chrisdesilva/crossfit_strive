@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react"
+import ReactPixel from "react-facebook-pixel"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import Classes from "../components/classes"
@@ -41,6 +42,10 @@ const IndexPage = () => {
     return () => {
       document.removeEventListener("scroll", handleScroll)
     }
+  }, [])
+
+  useEffect(() => {
+    ReactPixel.init("916994508780812")
   }, [])
 
   const data = useStaticQuery(graphql`
