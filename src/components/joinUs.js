@@ -5,60 +5,60 @@ import { FaCheckSquare } from "react-icons/fa"
 import Helmet from "react-helmet"
 
 const JoinUs = props => {
-  // const [twoWeeks, setTwoWeeks] = useState(false)
-  // const [moreInfo, setMoreInfo] = useState(false)
-  // const [thankYou, setThankYou] = useState(false)
-  // const [values, setValues] = useState({
-  //   name: "",
-  //   email: "",
-  //   phone: "",
-  //   comments: "",
-  //   reason: "",
-  // })
+  const [twoWeeks, setTwoWeeks] = useState(false)
+  const [moreInfo, setMoreInfo] = useState(false)
+  const [thankYou, setThankYou] = useState(false)
+  const [values, setValues] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    comments: "",
+    reason: "",
+  })
 
-  // const encode = data => {
-  //   return Object.keys(data)
-  //     .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-  //     .join("&")
-  // }
+  const encode = data => {
+    return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&")
+  }
 
-  // const handleInputChange = e => {
-  //   const { name, value } = e.target
-  //   setValues({ ...values, [name]: value })
-  // }
+  const handleInputChange = e => {
+    const { name, value } = e.target
+    setValues({ ...values, [name]: value })
+  }
 
-  // const handleSubmit = e => {
-  //   e.preventDefault()
-  //   const form = e.target
-  //   fetch("/", {
-  //     method: "POST",
-  //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
-  //     body: encode({
-  //       "form-name": form.getAttribute("name"),
-  //       ...values,
-  //     }),
-  //   })
-  //     .then(() => {
-  //       setThankYou(
-  //         "Thanks for getting in touch! We'll reach out shortly to talk about how we can help you start crushing goals."
-  //       )
-  //     })
-  //     .catch(error => console.log(error))
-  // }
+  const handleSubmit = e => {
+    e.preventDefault()
+    const form = e.target
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({
+        "form-name": form.getAttribute("name"),
+        ...values,
+      }),
+    })
+      .then(() => {
+        setThankYou(
+          "Thanks for getting in touch! We'll reach out shortly to talk about how we can help you start crushing goals."
+        )
+      })
+      .catch(error => console.log(error))
+  }
 
-  // const chooseTwoweeks = e => {
-  //   e.preventDefault()
-  //   setTwoWeeks(true)
-  //   setMoreInfo(false)
-  //   setValues({ ...values, reason: "Two free weeks" })
-  // }
+  const chooseTwoweeks = e => {
+    e.preventDefault()
+    setTwoWeeks(true)
+    setMoreInfo(false)
+    setValues({ ...values, reason: "Two free weeks" })
+  }
 
-  // const chooseMoreInfo = e => {
-  //   e.preventDefault()
-  //   setTwoWeeks(false)
-  //   setMoreInfo(true)
-  //   setValues({ ...values, reason: "More information" })
-  // }
+  const chooseMoreInfo = e => {
+    e.preventDefault()
+    setTwoWeeks(false)
+    setMoreInfo(true)
+    setValues({ ...values, reason: "More information" })
+  }
 
   return (
     <div className="joinUs">
