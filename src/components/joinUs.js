@@ -94,7 +94,7 @@ const JoinUs = props => {
       )}
 
       <Collapse isOpened={props.form}>
-        <iframe
+        {/* <iframe
           title="Learn more form"
           src="https://trial-13A012D9.zenplanner.com/zenplanner/portal/prospect.cfm?programId=A4BC64AD-86D3-4DDB-9962-411EF4AE5815&frame=true"
           style={{ width: "100%", height: "500px" }}
@@ -106,9 +106,9 @@ const JoinUs = props => {
               Online Prospect Form
             </a>
           </noframes>
-        </iframe>
+        </iframe> */}
 
-        {/*<form
+        <form
           name="strive-contact"
           className="form"
           method="post"
@@ -182,11 +182,11 @@ const JoinUs = props => {
               </button>
             </React.Fragment>
           )}
-          
+
           <Collapse isOpened={thankYou}>
             <p>{thankYou}</p>
           </Collapse>
-                </form>*/}
+        </form>
       </Collapse>
 
       <h2>Do you want to...</h2>
