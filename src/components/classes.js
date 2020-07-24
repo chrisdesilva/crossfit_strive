@@ -22,7 +22,7 @@ const Classes = props => {
           className="classes__class"
         >
           <div className="classes__content--1">
-            <h3>Strive 60</h3>
+            <h3>Group Cross-Training</h3>
             <p>
               Our 60 minute class is high intensity training at it’s finest.
               Workouts combine a variety of functional movements - everything
@@ -46,12 +46,12 @@ const Classes = props => {
             <h3>Pump & Burn</h3>
             <p>
               Our Pump & Burn classes are a great alternative or supplement to
-              Strive 60. It's a one-hour class of equal amounts of strength
-              training (Pump) and conditioning (Burn). PUMP is a total body
-              workout that builds solid, lean muscle. An expert trainer will
-              guide you through movements that utilize dumbbells, kettlebells,
-              and your own bodyweight. BURN is a high-energy cardio workout that
-              will get your heart rate up and keep it there.
+              Group Cross-Training. It's a one-hour class of equal amounts of
+              strength training (Pump) and conditioning (Burn). PUMP is a total
+              body workout that builds solid, lean muscle. An expert trainer
+              will guide you through movements that utilize dumbbells,
+              kettlebells, and your own bodyweight. BURN is a high-energy cardio
+              workout that will get your heart rate up and keep it there.
             </p>
           </div>
           <div className="classes__icon">

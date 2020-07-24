@@ -64,11 +64,12 @@ const JoinUs = props => {
     <div className="joinUs">
       <h1>Strive</h1>
       <p>
-        Welcome to Strive! Our mission is to empower people to be happier,
-        healthier, and more successful in life. We’re a family first, a gym
-        second. Whatever your health and fitness goals are, our experienced
-        coaches and supportive members will help you get there. We promise to
-        teach you, hold you accountable, and cheer you on every step of the way.
+        Welcome to Strive Strength and Conditioning! Our mission is to empower
+        people to be happier, healthier, and more successful in life. We’re a
+        family first, a gym second. Whatever your health and fitness goals are,
+        our experienced coaches and supportive members will help you get there.
+        We promise to teach you, hold you accountable, and cheer you on every
+        step of the way.
       </p>
       {!props.form && (
         <React.Fragment>

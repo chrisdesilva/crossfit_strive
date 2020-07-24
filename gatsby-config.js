@@ -3,7 +3,7 @@ require("dotenv").config({
 })
 module.exports = {
   siteMetadata: {
-    title: `Strive`,
+    title: `Strive Strength and Conditioning`,
     description: `We help beginners and experienced athletes reach their fitness goals through functional fitness.`,
     keywords: `bastrop, gym, fitness, conditioning, strength, lifting, weightlifting, nutrition, health, self-improvement`,
     author: `@desilvadev`,
