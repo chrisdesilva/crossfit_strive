@@ -162,7 +162,10 @@ const IndexPage = () => {
         <JoinUs
           fluid={data.squat.childImageSharp.fluid}
           form={form}
-          showForm={() => showForm(true)}
+          showForm={() => {
+            showForm(true)
+            gtag_report_conversion("https://strivebastrop.com/")
+          }}
         />
         <Schedule scroll={scrollToClasses} />
         <Pricing />
