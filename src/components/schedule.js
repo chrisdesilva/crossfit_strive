@@ -115,7 +115,7 @@ const Schedule = props => {
               <th>Monday | Wednesday | Friday</th>
             </tr>
             <tr>
-              <td>11:00am</td>
+              <td>3:30pm</td>
             </tr>
           </tbody>
         </table>
