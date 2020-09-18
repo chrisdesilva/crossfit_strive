@@ -54,7 +54,7 @@ const Header = props => {
           <Collapse isOpened={isMenuOpen}>
             <div id="navbar__links">
               <Link to="/">
-                <img src={logo} alt="CrossFit Strive logo" />
+                <img src={logo} alt="Strive logo" />
               </Link>
               <span onClick={() => toSection(".schedule")}>Schedule</span>
               <span onClick={() => toSection(".pricing")}>Pricing</span>
@@ -72,10 +72,7 @@ const Header = props => {
       <header className={navBackground ? "showNav" : null} id="navbar--md">
         <div id="navbar--md__logo">
           <Link to="/">
-            <img
-              src={navBackground ? logo : whiteLogo}
-              alt="CrossFit Strive logo"
-            />
+            <img src={navBackground ? logo : whiteLogo} alt="Strive logo" />
           </Link>
         </div>
 
