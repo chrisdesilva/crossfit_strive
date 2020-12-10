@@ -11,20 +11,20 @@ const Pricing = () => {
       <h2>Pricing</h2>
       <table>
         <tr>
-          <th colSpan="3">1 Year Commitment</th>
+          <th colSpan="3">Unlimited</th>
         </tr>
         <tr className="row">
-          <td>2x/week: $90/mo</td>
-          <td>3x/week: $103/mo</td>
-          <td>Unlimited: $131/mo</td>
+          <td></td>
+          <td>$129/mo</td>
+          <td></td>
         </tr>
         <tr>
-          <th colSpan="3">Month to Month</th>
+          <th colSpan="3">Punch Cards</th>
         </tr>
         <tr className="row">
-          <td>2x/week: $110/mo</td>
-          <td>3x/week: $123/mo</td>
-          <td>Unlimited: $151/mo</td>
+          <td>10 classes: $161</td>
+          <td></td>
+          <td>20 classes: $261</td>
         </tr>
       </table>
       {/*       <p>Drop-In: $20/class</p>
