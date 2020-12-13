@@ -26,6 +26,14 @@ const Pricing = () => {
           <td></td>
           <td>20 classes: $261</td>
         </tr>
+        <tr>
+          <th colSpan="3">Barbell</th>
+        </tr>
+        <tr className="row">
+          <td colSpan="3">Membership add-on: $70/mo</td>
+          <td colSpan="3">Unlimited: $120/mo</td>
+          <td colSpan="3">Youth: $99/mo</td>
+        </tr>
       </table>
       {/*       <p>Drop-In: $20/class</p>
       <p>2x/week: $100/mo</p>
