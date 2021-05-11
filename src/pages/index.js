@@ -274,21 +274,21 @@ const IndexPage = () => {
       <footer className="footer">
         <div className="footer__links">
           <a
-            href="https://facebook.com/crossfitstrivebastrop"
+            href="https://www.facebook.com/StriveStrengthandConditioning/"
             target="_blank"
             rel="noreferrer noopener"
           >
             <FaFacebookSquare />
           </a>
           <a
-            href="https://instagram.com/crossfitstrivebastrop"
+            href="https://www.instagram.com/strive_bastrop/"
             target="_blank"
             rel="noreferrer noopener"
           >
             <FaInstagram />
           </a>
           <a
-            href="mailto:info@crossfitstrive.com"
+            href="mailto:info@strivebastrop.com"
             target="_blank"
             rel="noreferrer noopener"
           >
@@ -305,7 +305,7 @@ const IndexPage = () => {
             style={{ border: 0 }}
             allowFullScreen=""
           ></iframe>
-          <a href="tel:+1-512-580-6835">512-580-6835</a>
+          <a href="tel:+1-512-850-6835">512-850-6835</a>
           <a
             href="https://goo.gl/maps/B362Ye6MUBcPYLvy8"
             target="_blank"
